@@ -1,0 +1,17 @@
+Package: KOM
+Type: Package
+Title: Optimal Estimation of Generalized Average Treatment Effects using Kernel Optimal Matching
+Version: 0.1.0
+Authors@R: c(
+  person("Michele", "Santacatterina", , "santacatterina@cornell.edu", c("aut", "cre")))
+Author: Michele Santacatterina
+Maintainer: Michele Santacatterina <santacatterina@cornell.edu>
+Description: estimates weights that minimize the worst-case Conditional Mean Squared Error (CMSE) of the weighted
+ estimator in estimating Generalized Average Treatment Effects (GATE) over the space of weights. 
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Imports:
+	reticulate,
+	gurobi
+RoxygenNote: 6.1.1.9000
