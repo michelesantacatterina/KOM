@@ -395,7 +395,7 @@ KOM <- function(outcome,
       model             <- list()
       model$A           <- matrix(c(  (( c(t1,rep(0,n)) )/n), #sum of weights among treated
                                       (( c(t0,rep(0,n)) )/n),  #sum of weights among controls
-                                      c(rep(0,n),rep(1/n,n))   #sum of weights V_i n/1
+                                      c(rep(0,n),rep(1,n))   #sum of weights V_i n/1
       ),
       nrow=3,
       byrow=T)
